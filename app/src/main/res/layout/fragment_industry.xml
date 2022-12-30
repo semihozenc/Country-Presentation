@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".industryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Sanayileşme ülkenin önemli hedeflerinden birisi olmakla birlikte, bağımsızlığın kazanılmasından bugüne dek bu alanda önemli bir ilerleme sağlanamamıştır. Enerji ve su sektörlerinin GSYİH’daki payı %4, madencilik sektörünün GSYİH’daki payı ise %0,5 oranındadır. Sanayi sektörü üç büyük kent olan Nairobi, Mombasa ve Kisumu’da yoğunlaşmıştır. İmalat sanayinde değirmencilik, bira üretimi, süt ve şeker rafinasyonu gibi gıda işleme sanayi ön plandadır. Kenya, Mombasa’da rafineri yoluyla petrol ürünleri üretmekte olup, önemli bir çimento üretim kapasitesine de sahiptir."
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/sanayi" />
+
+</FrameLayout>

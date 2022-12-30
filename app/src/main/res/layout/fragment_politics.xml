@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".politicsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="Kenya'nın Başbakanları aşağıda listelenmiştir."
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="110dp"
+                android:layout_height="176dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="80dp"
+                android:src="@drawable/bir" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="250dp"
+                android:text="1. Başbakan : Jomo Kenyatta (1893–1978)               12.12.1963 ile 22.08.1978 tarihleri arasında görev yapmıştır."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="127dp"
+                android:layout_height="146dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="300dp"
+                android:src="@drawable/iki" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="450dp"
+                android:text="2. Başbakan : Daniel arap Moi (1924−2020)            	             23.08.1978 ile 30.12.2002 tarihleri arasında görev yapmıştır."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="115dp"
+                android:layout_height="141dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="500dp"
+                android:src="@drawable/uc" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="640dp"
+                android:text="3. Başbakan : Mwai Kibaki (1931−2022)                                 31.12.2002 ile 9.04.2013 tarihleri arasında görev yapmıştır."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="113dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="700dp"
+                android:src="@drawable/dort" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="870dp"
+                android:text="4. Başbakan : Uhuru Kenyatta (1961−)                                        9.04.2013 ile 13.09.2022 tarihleri arasında görev yapmıştır."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="116dp"
+                android:layout_height="156dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="930dp"
+                android:src="@drawable/bes" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="1120dp"
+                android:layout_marginBottom="30dp"
+                android:text="5. ve şu anki Başbakan : William Ruto (1966−)                                         13.09.2022 tarihinde göreve başlamıştır."
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="1250dp"
+                android:text="Veritabanından Çekilen Başbakanlar"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <ListView
+                android:id="@+id/dbList"
+                android:layout_width="match_parent"
+                android:layout_height="314dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="1300dp"
+                android:layout_marginRight="50dp"
+                android:textAlignment="center" />
+
+        </FrameLayout>
+    </ScrollView>
+</FrameLayout>

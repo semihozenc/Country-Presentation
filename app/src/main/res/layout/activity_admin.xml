@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminActivity">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sehirEdit"
+            android:text="Şehir Ekle"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_margin="50dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/sehirAdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sehirEdit"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Şehir Adı"
+            android:padding="20dp" />
+
+        <Button
+            android:id="@+id/sehirSaveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sehirEdit"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:onClick="sehirSave"
+            android:text="Kaydet" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sehirSilTxt"
+            android:layout_below="@id/sehirSaveBtn"
+            android:text="Şehir Sil"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/sehirAdiSil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sehirSilTxt"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Şehir Adı"
+            android:padding="20dp" />
+
+        <Button
+            android:id="@+id/sehirSil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sehirAdiSil"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:onClick="sehirDelete"
+            android:text="Kaydet" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/basbakanTxt"
+            android:layout_below="@id/sehirSil"
+            android:text="Başbakan Ekle"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/basbakanEkleTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/basbakanTxt"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Başbakan Adı"
+            android:padding="20dp" />
+
+        <Button
+            android:id="@+id/basbakanEkle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/basbakanEkleTxt"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:onClick="basbakanEkle"
+            android:text="Kaydet" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/basbakanSilTxt1"
+            android:layout_below="@id/basbakanEkle"
+            android:text="Başbakan Sil"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/basbakanSilTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/basbakanSilTxt1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Başbakan Adı"
+            android:padding="20dp" />
+
+        <Button
+            android:id="@+id/basbakanSil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/basbakanSilTxt"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:onClick="basbakanSil"
+            android:text="Kaydet" />
+
+
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

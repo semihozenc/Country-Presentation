@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="25dp"
+    tools:context=".homeFragment">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="230dp"
+        android:text="Kenya ya da resmî adı ile Kenya Cumhuriyeti, Afrika kıtasının doğu kısmında yer alan bir ülkedir. Ülkenin sınır komşularını (kuzeyden saat yönünde ilerlendiğinde) Etiyopya, Somali, Tanzanya, bir kısmı Victoria Gölü ile olmak üzere Uganda ve Güney Sudan oluşturmaktadır. Bunun haricinde ülkenin güneydoğusunda Hint Okyanusu yer almaktadır. Ülkenin başkenti Nairobi'dir."
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="12dp"
+        app:cardUseCompatPadding="true"
+        tools:ignore="MissingConstraints">
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/image_slider"
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            app:iss_auto_cycle="true"
+            app:iss_period="3000"
+            tools:ignore="MissingConstraints" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:src="@drawable/ss" />
+
+    <!-- TODO: Update blank fragment layout -->
+
+</FrameLayout>

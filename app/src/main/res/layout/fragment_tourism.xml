@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    tools:context=".tourismFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Kenya konumu gereği Afrika kıtasında gözlemlenebilecek birçok farklı manzarayı bir arada sunabilen nadir ülkelerden biri olarak turizm açısından önemli kazanımlar elde edebilmektedir"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="304dp"
+                android:layout_height="261dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="70dp"
+                android:src="@drawable/turizm2" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="300dp"
+                android:text="Buna göre Kenya'ya turist olarak gelen biri kıyı kesimlerinde sahillerin yanı sıra uzun mercan kayalıklarını, büyük vahşi hayvanlar ile geniş savanlarını, karlarla kaplı dağ zirvelerini, çölleri ve küçük de olsa yağmur ormanlarını gözlemleyebilmektedir."
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="324dp"
+                android:layout_height="261dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="380dp"
+                android:src="@drawable/turizm3" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="590dp"
+                android:text="Bunların haricinde ülke genelinde bulunan birçok ulusal park da turizm açısından önem arz etmektedir. Kenya'da tarih öncesine dair bulguların bulunduğu yerler de mevcut olup, bunların bir kısmı turist ziyaretine kapalı konumdadır. Bu yerler arasında Orrorin önemli bir yer tutmaktadır."
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="339dp"
+                android:layout_height="233dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="700dp"
+                android:src="@drawable/turizm4" />
+        </FrameLayout>
+    </ScrollView>
+</FrameLayout>
